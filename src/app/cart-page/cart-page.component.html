@@ -1,0 +1,54 @@
+<div *ngIf="cartPrice.price!=0" class="cart-page">
+    <h1>Cart Summary Page</h1>
+    <div  class="row">
+        <div class="col-sm-8 details">
+            <ul *ngFor="let cart of cartData">
+                <li>
+                    <img src="{{cart.image}}" alt=""/>
+                </li>
+                <li>
+                    <span>{{cart.name}}</span>
+                </li>
+                <li>
+                    <span>Price :{{ cart.price}}</span>
+                </li>
+                <li>
+                    <span>Quantity : {{ cart.quantity}} {{cart.id}}</span>
+                </li>
+                <li>
+                    <button   class="form-button" (click)="removeToCart(cart.id)"> Remove from Cart</button>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-4 summary">
+            <h3>Summary</h3>
+            <ul>
+                <li>
+                    <span> Amount</span><span>{{cartPrice.price}}</span>
+                </li>
+                <li>
+                    <span> tax</span><span>{{cartPrice.tax}}</span>
+                </li>
+                <li>
+                    <span> Delivery</span><span>{{cartPrice.delivery}}</span>
+                </li>
+                <li>
+                    <span> Discount</span><span>{{cartPrice.discount}}</span>
+                </li>
+                <li><span><h4>Total</h4></span><span><h4>{{cartPrice.total}}</h4></span>
+                  
+                </li>
+                <button (click)="checkout()"    class="form-button max-width"> CheckOut </button> 
+            </ul>
+        </div>
+
+
+    </div>
+ 
+
+</div>
+
+<div class="no-item" *ngIf="cartPrice.price==0" >
+   
+    <img src="https://www.bagbazaars.com/assets/img/no-product-found.png" />
+</div>

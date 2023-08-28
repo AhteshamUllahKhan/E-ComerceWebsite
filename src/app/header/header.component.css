@@ -1,0 +1,88 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav .icon{
+    height: 20px;
+    width: auto;
+}
+.nav h1 a {
+    color: blueviolet;
+    margin: 0;
+    font-size: 40px;
+    text-decoration: none !important;
+}
+
+.nav ul {
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    ;
+}
+
+.nav li {
+
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.nav .nav-search{
+margin: 5px;
+flex: 1;
+display: flex;
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.nav .nav-search input {
+    flex:1;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    height: 39px;
+    border-right: 0px;
+}
+
+.nav .nav-search button {
+   
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    height: 39px;
+    border-left: 0px;
+}
+
+.h1 a{
+    color: blueviolet;
+    text-decoration: none;
+    background:  -webkit-repeating-linear-gradient(-45deg, #71b7e6, #69a6ce, #b98acc, #ee8176, #b98acc, #69a6ce, #9b59b6);
+    ;
+}
+
+.suggestion-result{
+    position: absolute;
+    display: list-item !important;
+    z-index: 10;
+    background-color: #fff;
+    width: 300px;
+    top: 42px;
+    border: 1px solid #ddd;
+}
+
+.suggestion-result li{
+    border: 1px solid #ddd;
+    padding: 5px;
+
+}
+suggestion-result li a{
+    cursor: pointer;
+    color: blueviolet;
+
+}
