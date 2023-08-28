@@ -1,0 +1,100 @@
+{
+  "seller": [
+    {
+      "name": "Ahtesham",
+      "password": "123",
+      "email": "123",
+      "id": 3
+    }
+  ],
+  "Products": [
+    {
+      "name": "Sony Headfon",
+      "price": "15999",
+      "catogory": "Headfon",
+      "color": "Green",
+      "description": "Water Proof , 60 hr Playback ",
+      "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-164960,resizemode-75,msid-99824115/top-trending-products/electronics/headphones/10-best-gaming-headphones-under-1500-in-india-for-the-most-immersive-gaming-experience.jpg",
+      "id": 1
+    },
+    {
+      "name": "Ptron Powerbank",
+      "price": "6999",
+      "catogory": "Powerbank",
+      "color": "Black",
+      "description": "20000 mah",
+      "image": "https://ptron.in/cdn/shop/files/B0BZHY8PFN.PT01_1024x1024.jpg?v=1686655959",
+      "id": 2
+    },
+    {
+      "name": "Sunset Painting",
+      "price": "23999",
+      "catogory": "Painting",
+      "color": "yellow",
+      "description": "Original By : Ali Khan",
+      "image": "https://images.pexels.com/photos/1353126/pexels-photo-1353126.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "id": 3
+    },
+    {
+      "name": "Apple ThinAir",
+      "price": "159999",
+      "catogory": "Laptop",
+      "color": "White ",
+      "description": "Metal Body , 9th Gen , 2 Tb HD , 16 GB RAM",
+      "image": "https://www.apple.com/newsroom/images/product/mac/standard/Apple_MacBook-Pro_14-16-inch_10182021_big.jpg.slideshow-xlarge_2x.jpg",
+      "id": 4
+    },
+    {
+      "name": "Noise Digital Watch",
+      "price": "5999",
+      "catogory": "Watch",
+      "color": "Blue",
+      "description": "Water Proof , 10 Days Battery",
+      "image": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202209/whatsapp_image_2022-09-21_at_11-sixteen_nine.jpeg",
+      "id": 5
+    },
+    {
+      "name": "Iphone 14",
+      "price": "120000",
+      "catogory": "Mobile",
+      "color": "White",
+      "description": "50px camera , 5000mAh Battery",
+      "image": "https://m.media-amazon.com/images/I/61cwywLZR-L._AC_UF894,1000_QL80_.jpg",
+      "id": 6
+    },
+    {
+      "name": "JBL Speakers",
+      "price": "7988",
+      "catogory": "Speaker",
+      "color": "pink",
+      "description": "JBL Speaker , 40Hr Playback",
+      "image": "https://images.crutchfieldonline.com/ImageHandler/trim/750/457/products/2015/35/109/g109FLiP3PK-F.jpg",
+      "id": 7
+    },
+    {
+      "name": "Nokia Tablet",
+      "price": "23999",
+      "catogory": "Tablet",
+      "color": "Blue",
+      "description": "Top Notch",
+      "image": "https://images.ctfassets.net/wcfotm6rrl7u/3Spqv38SwpFba2PbUMao58/6c269fe6f5dbd51c2bcb23ef1500bd98/nokia-T20-ocean_blue-emotional-int.png",
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "name": "Ahtesham User",
+      "email": "alikhan.akk678@gmail.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "name": "Ahtesham",
+      "email": "ahteshamullahkhan.cs16@mpgi.edu.in",
+      "password": "123",
+      "id": 2
+    }
+  ],
+  "cart": [],
+  "orders": []
+}
